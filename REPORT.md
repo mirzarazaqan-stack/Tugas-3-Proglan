@@ -61,3 +61,6 @@ Matkul     : Pemrograman lanjut
 Nama       : Pak Muzammil, S.Sos
 ID/NIP/NRP : 197009031990031003
 Unit Kerja : Kepala Sub Bagian Tata Usaha
+
+## 6. Kesimpulan dan Analisis Kendala
+Secara keseluruhan, program berhasil diimplementasikan dengan struktur modular yang sangat baik sesuai standar OOP. Kendala teknis utama yang sempat dialami selama proses integrasi kode adalah terjadinya *linker error* (seperti `Mahasiswa was not declared in this scope`). Setelah dilakukan proses *debugging*, kendala ini berhasil diselesaikan dengan memastikan sinkronisasi penyimpanan (*save*) pada text editor, serta memastikan deklarasi `namespace sim` telah konsisten di setiap file `.hpp` sebelum melakukan eksekusi kompilasi gabungan di terminal.
