@@ -45,7 +45,7 @@ Kompilasi dilakukan menggunakan *compiler* `g++` dengan mengeksekusi perintah ko
 --- Data Mahasiswa ---
 [Profil Mahasiswa]
 Nama       : Nabil Mirza Razaqan
-ID/NIP/NRP : 5024251000
+ID/NIP/NRP : 5024251119
 Jurusan    : Teknik Komputer
 IPK        : 3.85
 
